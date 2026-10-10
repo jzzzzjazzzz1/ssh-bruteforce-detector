@@ -1,0 +1,145 @@
+{
+  "198.51.100.10": {
+    "label": "benign",
+    "scenario": "normal_user",
+    "expected_rules": []
+  },
+  "198.51.100.11": {
+    "label": "benign",
+    "scenario": "normal_user",
+    "expected_rules": []
+  },
+  "198.51.100.12": {
+    "label": "benign",
+    "scenario": "normal_user",
+    "expected_rules": []
+  },
+  "198.51.100.13": {
+    "label": "benign",
+    "scenario": "normal_user",
+    "expected_rules": []
+  },
+  "198.51.100.50": {
+    "label": "benign",
+    "scenario": "stale_service_credentials",
+    "expected_rules": []
+  },
+  "192.0.2.100": {
+    "label": "benign",
+    "scenario": "background_noise",
+    "expected_rules": []
+  },
+  "192.0.2.101": {
+    "label": "benign",
+    "scenario": "background_noise",
+    "expected_rules": []
+  },
+  "192.0.2.102": {
+    "label": "benign",
+    "scenario": "background_noise",
+    "expected_rules": []
+  },
+  "192.0.2.103": {
+    "label": "benign",
+    "scenario": "background_noise",
+    "expected_rules": []
+  },
+  "192.0.2.104": {
+    "label": "benign",
+    "scenario": "background_noise",
+    "expected_rules": []
+  },
+  "192.0.2.105": {
+    "label": "benign",
+    "scenario": "background_noise",
+    "expected_rules": []
+  },
+  "192.0.2.106": {
+    "label": "benign",
+    "scenario": "background_noise",
+    "expected_rules": []
+  },
+  "192.0.2.107": {
+    "label": "benign",
+    "scenario": "background_noise",
+    "expected_rules": []
+  },
+  "192.0.2.108": {
+    "label": "benign",
+    "scenario": "background_noise",
+    "expected_rules": []
+  },
+  "192.0.2.109": {
+    "label": "benign",
+    "scenario": "background_noise",
+    "expected_rules": []
+  },
+  "192.0.2.110": {
+    "label": "benign",
+    "scenario": "background_noise",
+    "expected_rules": []
+  },
+  "192.0.2.111": {
+    "label": "benign",
+    "scenario": "background_noise",
+    "expected_rules": []
+  },
+  "192.0.2.112": {
+    "label": "benign",
+    "scenario": "background_noise",
+    "expected_rules": []
+  },
+  "192.0.2.113": {
+    "label": "benign",
+    "scenario": "background_noise",
+    "expected_rules": []
+  },
+  "192.0.2.114": {
+    "label": "benign",
+    "scenario": "background_noise",
+    "expected_rules": []
+  },
+  "203.0.113.5": {
+    "label": "attacker",
+    "scenario": "fast_brute",
+    "expected_rules": [
+      "brute_force"
+    ]
+  },
+  "203.0.113.6": {
+    "label": "attacker",
+    "scenario": "fast_brute",
+    "expected_rules": [
+      "brute_force"
+    ]
+  },
+  "203.0.113.7": {
+    "label": "attacker",
+    "scenario": "user_spray",
+    "expected_rules": [
+      "user_spray"
+    ]
+  },
+  "203.0.113.8": {
+    "label": "attacker",
+    "scenario": "slow_brute",
+    "expected_rules": [
+      "slow_brute"
+    ]
+  },
+  "203.0.113.9": {
+    "label": "attacker",
+    "scenario": "evasive_low_rate",
+    "expected_rules": [
+      "persistent_low_rate"
+    ]
+  },
+  "203.0.113.10": {
+    "label": "attacker",
+    "scenario": "compromise",
+    "expected_rules": [
+      "brute_force",
+      "success_after_failures"
+    ]
+  }
+}
